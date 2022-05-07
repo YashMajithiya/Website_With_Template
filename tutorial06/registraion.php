@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css.1/sourcesanspro-font.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="css.1/style.css"/>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="form-v8">
+	
+	<div class="page-content">
+		<div class="form-v8-content">
+
+			<div class="form-right">
+				<form class="form-detail" action="#" method="post">
+					<div class="tabcontent" id="sign-up">
+				
+						
+				<h1>Registration Form</h1>
+				
+
+						<div class="form-row">
+							<label class="form-row-inner">
+								<input type="text" name="full_name" id="full_name" class="input-text" >
+				
+								<span class="label">Username</span>
+		  						<span class="border"></span>
+							</label>
+						</div>
+						<h2>                                            </h2>
+
+						<div class="form-row">
+							<label class="form-row-inner">
+								<input type="password" name="password" id="password" class="input-text" >
+								<span class="label">Password</span>
+								<span class="border"></span>
+							</label>
+						</div>
+						<h2>                                            </h2>
+
+						<div class="form-row">
+							<label class="form-row-inner">
+								<input type="password" name="comfirm_password" id="comfirm_password" class="input-text" >
+								<span class="label">Confirm Password</span>
+								<span class="border"></span>
+							</label>
+						</div>
+						<h2>                                            </h2>
+
+						<div class="form-row">
+							<label class="form-row-inner">
+								<input type="number" name="age" id="age" class="input-text" >
+								<span class="label">age</span>
+								<span class="border"></span>
+							</label>
+						</div>
+						<h2>                                            </h2>
+
+						<div class="form-row">
+							<span class="label">Birth Date</span>
+							<h2>                                            </h2>
+
+								<input type="date" name="Birth-Date" id="Birth-Date" class="input-text" >
+								
+								<span class="border"></span>
+							</label>
+						</div>
+						<h2>                                            </h2>
+
+						<div class="form-row">
+							<label class="form-row-inner">
+								<input type="text" name="city" id="city" class="input-text" >
+								<span class="label">City</span>
+								<span class="border"></span>
+							</label>
+						</div>
+						<h2>                                            </h2>
+
+						<div class="form-row">
+							<label class="form-row-inner">
+								<input type="text" name="state" id="state" class="input-text" >
+								<span class="label">State</span>
+								<span class="border"></span>
+							</label>
+						</div>
+						<h2>                                            </h2>
+
+						<div class="form-row">
+							<label class="form-row-inner">
+								<input type="text" name="country" id="country" class="input-text">
+								<span class="label">country</span>
+								<span class="border"></span>
+							</label>
+						</div>
+						<h2>                                            </h2>
+
+						<div class="form-row">
+							<span class="label">Profile Photo</span>
+							<h2>                                            </h2>
+
+							<!--<label class="form-row-inner">-->
+								<input type="file" name="profile photo" id="profile photo" class="form-control" >
+							
+								<span class="border"></span>
+							</label>
+							<h2>                                            </h2>
+						</div>
+						<div class="form-row-last">
+							<input type="submit" name="register" class="register" value="Register">
+						</div>
+						<h2>                                            </h2>
+
+						<div class="form-row">
+							<p>Already User ?<a href="index.html" ><h1>login</h1></a></p>
+					</div>
+					<h2>                                            </h2>
+
+					</div>
+				</form>
+						
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function openCity(evt, cityName) {
+		    var i, tabcontent, tablinks;
+		    tabcontent = document.getElementsByClassName("tabcontent");
+		    for (i = 0; i < tabcontent.length; i++) {
+		        tabcontent[i].style.display = "none";
+		    }
+		    tablinks = document.getElementsByClassName("tablinks");
+		    for (i = 0; i < tablinks.length; i++) {
+		        tablinks[i].className = tablinks[i].className.replace(" active", "");
+		    }
+		    document.getElementById(cityName).style.display = "block";
+		    evt.currentTarget.className += " active";
+		}
+
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+	</script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
