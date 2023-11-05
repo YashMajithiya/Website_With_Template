@@ -78,7 +78,7 @@ To set up the portfolio website and work with the tutorials, please follow these
 1. Clone this repository to your local machine:
 
    ```
-   git clone https://github.com/your-username/your-repo.git
+   https://github.com/YashMajithiya/website_with_template.git
    ```
 
 2. Follow the instructions provided in each tutorial to learn and practice PHP and Laravel.
