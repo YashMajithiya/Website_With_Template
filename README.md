@@ -12,19 +12,53 @@ I have also included a series of tutorials that cover the basics of PHP and incl
 
 ### Tutorial List
 
-1. Introduction to PHP
-2. Basic PHP Syntax
-3. PHP Variables and Data Types
-4. PHP Control Structures (if, else, switch)
-5. PHP Loops (for, while, foreach)
-6. Functions in PHP
-7. PHP Arrays
-8. Working with Forms in PHP
-9. PHP Sessions and Cookies
-10. File Handling in PHP
-11. Introduction to Object-Oriented Programming (OOP) in PHP
-12. PHP Database Connectivity
-13. Laravel 8 Project: CRUD Operations
+Tutorial-01:
+Develop a login.html and registration.html with bootstrap design.
+
+Tutorial02
+Design a table to display Tutorial-1 Registration Form Data. Also, put Add, Delete and Edit button. Apply jQuery animation on the deletion of the record.
+
+Tutorial03
+Apply jQuery validation in the form to validate user input of the registration page. For reference go through this video. 
+
+Tutorial04
+Create a PHP script to calculate interest from 3 values (P, R, N) entered by the user in the textbox and display the data in next page.
+
+Tutorial05
+Create HTML form having select box of 1 to 12 number. On submit form should post data to second PHP file which display respective Month name preselected in select box
+
+Tutorial06
+Create a Login & Logout module using state management.
+
+Tutorial07
+Apply “Remember Me” functionality in the login.php page of the previous tutorial using Cookie.
+
+Tutorial08:
+Create a PHP script to upload image files in the registration page.
+
+Tutorial09:
+Write a PHP script to connect with the Given MySQL databaseView
+
+Tutorial10:
+Develop a code to display data from a database shared with you. Use this SQL FileView in a new window
+
+Tutorial11:
+Develop a code to send the data to another page to save in the database and delete functionality with the database.
+
+Tutorial12:
+Complex CRUD HTML Structure based on SQL file.
+
+Tutorial13:
+Develop a complete working module with the Insert, Update, Delete & Display functionality for the given database file. Develop a CRUD operation for the given tableView in a new window.
+
+Tutorial14:
+Task -1: Write a query to display the department ID and name and first name of the manager like as follows. 
+The expected output is as follows: (Use table employees, departments, Use Inner Join & Group by)
+
+Tutorial15:
+Task 1 - Create a CRUD operation for the Member table with profile pic file upload.
+
+The Tutorial List I have provided in Text File, all the tutorials covers the basic php and larvel project of crud operation,I have also attached here database with files.
 
 ## Resources
 
