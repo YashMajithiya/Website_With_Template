@@ -4,7 +4,7 @@ This repository contains the code and resources for my personal portfolio websit
 
 ## Portfolio Website
 
-I have created a functional portfolio website, which showcases my projects, skills, and achievements. The website is live at [your-website-url.com](https://www.your-website-url.com). You can find screenshots of the website in the "Screenshots" folder.
+I have created a functional portfolio website, which showcases my projects, skills, and achievements.
 
 ## Tutorials
 
